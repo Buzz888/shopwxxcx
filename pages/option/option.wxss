@@ -1,0 +1,73 @@
+/* pages/option/option.wxss */
+.view1{
+display: flex;
+justify-content: center;
+
+}
+.image1{
+  width: 100%;
+height: 300px;
+
+}
+.price{
+  color: #e4393c; 
+  font-size: 1.3rem
+}
+title{
+  font-size: 1.3rem;
+  margin: 20rpx 20rpx;
+}
+.mybootom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx;
+   position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 15vh;
+}
+.mybootom :nth-child(1){
+  flex: 1;
+  padding: 10rpx;
+  font-size: .8rem
+  
+}
+.mybootom :nth-child(2){
+  flex: 1;
+  padding: 10rpx;
+  font-size: .8rem
+}
+.mybootom :nth-child(3){
+  padding: 10rpx;
+  flex: 2;
+  background: #ffa600;
+  color: white;
+  text-align: center;
+}
+.mybootom :nth-child(4){
+  padding: 10rpx;
+  flex: 2;
+  background: #e4393c; 
+  color: white;
+  text-align: center;
+
+}
+.say{
+  width: 100%;
+  height: 400rpx;
+  margin-top: 30rpx;
+ background-color: #1296db;
+ color: white;
+}
+.neirong{
+  text-align: center;
+  width: 100%;
+  height: 2000rpx;
+   background-color: #1296db;
+}
+.say-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

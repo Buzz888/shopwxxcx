@@ -1,0 +1,60 @@
+/* pages/car/car.wxss */
+.carheder{
+  background-color: #1296db;
+  color: white;
+  padding:10rpx;
+  text-align: center;
+}
+.car{
+  margin:30rpx;
+  border-bottom:1px solid #e6e6e6;
+  border-top:1px solid #e6e6e6;
+  display: flex;
+  align-items: center;
+}
+.car image{
+  width: 220rpx;
+  height: 220rpx;
+  flex: 1
+}
+.carname{
+  flex: 1.5;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.carname :last-child{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+inp{
+  width: 100rpx;
+}
+.inp view{
+ background-color: #1296db;
+  width: 30rpx;
+  height: 30rpx;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 30rpx;
+}
+.inp input{
+  width: 30rpx;
+  height: 30rpx;
+  text-align: center;
+}
+.moneny button{
+  background-color: #1296db;
+  color: white;
+  border-radius: 10rpx;
+}
+.moneny view{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20rpx;
+  color: red;
+  
+}

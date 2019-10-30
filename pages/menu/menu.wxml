@@ -1,0 +1,7 @@
+<!--pages/menu/menu.wxml-->
+<view class="menu1">
+<view class="item-css">
+<view class="item {{index==i?'active':'' }}" wx:for="{{ary}}" data-index="{{index}}" bindtap="add" wx:key="{{index}}">{{item}}</view>
+</view>
+<view>{{aryitem[i]}}</view>
+</view>

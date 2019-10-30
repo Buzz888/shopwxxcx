@@ -1,0 +1,45 @@
+{
+  "pages": ["pages/car/car",
+        "pages/menu/menu",
+    "pages/index/index",
+    
+    "pages/me/me",
+    "pages/option/option"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "饿了不叫妈商城",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/index_a.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "分类",
+        "iconPath": "image/menu.png",
+        "selectedIconPath": "image/menu_a.png"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "text": "购物车",
+        "iconPath": "image/car.png",
+        "selectedIconPath": "image/car_a.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "image/me.png",
+        "selectedIconPath": "image/me_a.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+/* pages/index/index.wxss */
+.header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #1296db;
+}
+.header image{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 20rpx auto;
+}
+.header input{
+  border-radius: 15rpx;
+  background: white;
+}
+.middle{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30rpx auto;
+
+}
+.middle-item image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.middle-item{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15rpx;
+  align-items: center;
+}
+.shopimg{
+  width: 300rpx;
+  height: 300rpx;
+  flex: 1;
+}
+.seeshop{
+  display: flex;
+  justify-content: start;
+}
+.shopitem{
+flex: 1.5;
+display: flex;
+flex-direction: column;
+padding-top: 30rpx;
+margin-bottom: 50rpx;
+border-bottom:1px solid #e6e6e6;
+margin-right: 20rpx; 
+}
+.shopitem :nth-child(1){
+  flex: 1;color: #666;
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rpx;
+  
+}
+.item :nth-child(1){
+  color: #e4393c;
+}
+.gocar{
+  background-color: #1296db;
+  color: white;
+}
+.swpierimg{
+  width:100%;
+  height: 100%;
+}

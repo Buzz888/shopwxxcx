@@ -1,0 +1,32 @@
+<!--pages/me/me.wxml-->
+<view>
+  <view class="header">
+    <button class="button1" wx:if="{{!userInfo}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+      <view class="headertext">登陆/注册
+        <view>登陆后享受更多特权</view>
+      </view>
+      </button><block class="headertext">
+        <image class="timg" src="{{userInfo.avatarUrl}}"></image>
+        <text class="name">{{userInfo.nickName}}</text>
+      </block>
+    <image class="headericon" src="../../image/right.png"></image>
+  </view>
+  <view class="middle">
+    <image class="middleicon1" src="../../image/car.png"></image>购物车
+    <image class="middleicon2" src="../../image/me.png"></image>我的
+  </view>
+  <view class="end">
+    <view class="enditem">
+      <image class="middleicon" src="../../image/dz.png"></image>
+      <text>点赞</text>
+    </view>
+    <view class="enditem">
+      <image class="middleicon" src="../../image/fx.png"></image>
+      <text>分享</text>
+    </view>
+    <view class="enditem" bindtap="addMall">
+      <image class="middleicon" src="../../image/kf.png"></image>
+      <text>客服反馈</text>
+    </view>
+  </view>
+</view>

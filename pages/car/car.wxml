@@ -1,0 +1,22 @@
+<!--pages/car/car.wxml-->
+<view class="carheder">购物车</view>
+<view class="car" wx:for="{{cars}}" wx:key="{{item._id}}">
+<checkbox color="#1296db" checked="true"></checkbox>
+<image src="{{item.imge}}"></image>
+<view class="carname">
+<view>{{item.title}}</view>
+<view>
+<text>{{item.price}}</text>
+<view class="inp">
+<view bindtap="removecart" data-index="{{index}}">-</view>
+<input type="number" value="{{item.num}}"/>
+<view bindtap="addcart" data-index="{{index}}">+</view>
+</view>
+</view>
+</view>
+<view class="remove" data-index="{{index}}" bindtap="delItem">删除</view>
+</view>
+<view class="moneny">
+<view>总价<text>{{total}}</text>优惠<text>{{yh}}</text></view>
+<button>去结算</button>
+</view>

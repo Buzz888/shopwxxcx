@@ -1,0 +1,31 @@
+<!--pages/option/option.wxml-->
+<scroll-view scroll-y="true" style="height: 88vh;" >
+<view class="viewimg">
+<image class="image1" src="{{info.imge}}"></image>
+<view>
+<view class="price">￥{{info.price}}</view>
+<view class="title">{{info.title}}</view> 
+</view>
+<view class="say" >
+<view class="say-title">
+<text>
+用户评价 好评99%
+</text>
+<text>共10w+评价</text>
+</view>
+<view>
+<text>高档大气</text>
+</view>
+
+
+</view>
+<view class="neirong">商品详细</view>
+</view>
+</scroll-view >
+<view class="mybootom">
+<text>客服</text>
+<text>购物车</text>
+<text>加入购物车</text>
+<text>立即购买</text>
+</view>
+
